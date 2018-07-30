@@ -1,32 +1,34 @@
 {
-  "name": "yumeko",
-  "version": "0.1.0",
-  "description": "A simple discord bot",
-  "main": "MusicBot.js",
+  "name": "discord.js-music-v11",
+  "version": "1.3.4",
+  "description": "Music plugin for discord.js v11 bots",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "youtube-dl": "^1.11.1",
+    "ytdl-core": "^0.9.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexu-dev/discord.js-music.git"
   },
   "keywords": [
     "discord",
+    "discord.js",
+    "music",
     "bot",
-    "discordbot"
+    "plugin"
   ],
-  "author": "iCrawl",
-  "license": "MIT",
-  "dependencies": {
-    "discord.js": "^11.1.0",
-    "opusscript": "0.0.3",
-    "simple-youtube-api": "^3.0.0",
-    "ytdl-core": "^0.16.0"
+  "author": "Nexu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexu-dev/discord.js-music/issues"
   },
-  "devDependencies": {
-    "eslint": "^4.0.0",
-    "eslint-config-aqua": "^1.0.0"
-  },
-  "eslintConfig": {
-    "extends": "aqua",
-    "rules": {
-      "no-console": 0
-    }
-  }
+  "homepage": "https://github.com/nexu-dev/discord.js-music#readme"
 }
